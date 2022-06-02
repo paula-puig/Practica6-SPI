@@ -91,6 +91,7 @@ El codi permet que la esp32 mitjançant un periferic SPI com ara es la targeta S
 L'objectiu del programa és que a l'apropar la targeta al lector surti per pantalla si la targeta està autoritzada o no. Primerament es definiran els pins SS_PIN, RST_PIN que pertanyen a la trageta rfid i RELAY_PIN. És per això que apareixerà un primer missatge en el qual et demanarà que apropis la targeta al lector per poder fer la lectura. Serà en el void setup() que s'inicialitzarà el perifèric SPI rfid per començar a fer la lectura. Depenent del id de la targeta apareixerà un missatge en el que es dirà si està autoritzada: "Authorized tag" i llavors s'activarà el relay durant dos segons; o desautoritzada:"Unauthorized Tag with UID: " i també apareixerà el id de la targeta.
 
 El video de demostració del funcionament esta penjat al github.
+https://drive.google.com/file/d/1SwT0krK6JeKQlN-rZZfUBzuBF9_TlQv1/view?usp=sharing
 
 ## **Part 3: altres periferics SPI**
 ### **Rellotge RTC**
